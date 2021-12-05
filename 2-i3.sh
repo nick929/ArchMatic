@@ -14,7 +14,7 @@ echo
 PKGS=(
         'i3'                      # i3 package group
         'lightdm'                 # lightdm
-        'lightdm-gtk-greeter'     # greeter
+        'lightdm-gtk-greeter'     # gtk greeter for lightdm
 )
 
 for PKG in "${PKGS[@]}"; do
